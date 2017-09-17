@@ -11,3 +11,8 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debi
 ### 使用中科大的docker hub mirror
 
 http://mirrors.ustc.edu.cn/help/dockerhub.html
+
+### 设置docker image的位置/迁移镜像
+
+这个用软连接的方法有效，虽然比较脏。。。
+https://forums.docker.com/t/how-do-i-change-the-docker-image-installation-directory/1169
